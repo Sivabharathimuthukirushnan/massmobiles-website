@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="iphone.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Product Image Section -->
+    <div class="product-image">
+      <img src="img/iphone2.jpg" alt="Product Image" width="100%">
+    </div>
+
+    <!-- Product Details Section -->
+    <div class="product-details">
+      <h1 class="product-title">Apple iPhone 16 ( Black, 128GB )</h1>
+      <p class="product-price">₹ 79,900</p>
+      <p class="product-description">
+        Key Specifications
+bi check circle fill
+Rear Camera 48MP + 12MP | Front Camera 12MP
+bi check circle fill
+15.54 cm ( 6.1 inch ) Super Retina XDR, OLED display
+bi check circle fill
+A18 Bionic Chip | Built-In Rechargeable Lithium-ion Battery
+      </p>
+
+      <!-- Buttons Section -->
+      <div class="buttons">
+        <button class="btn btn-primary" onclick="addToCart()">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+        <button class="btn btn-favorite" onclick="addToFavorite()">Add to Favorite <i class="fa-solid fa-heart"></i></button>
+        <button class="btn btn-share" onclick="shareProduct()">Share Product <i class="fa-solid fa-share"></i></button>
+      </div>
+
+      <!-- Social Share Links -->
+      <div class="social-share">
+        <a href="https://wa.me/?text=https://your-product-url.com" target="_blank" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // JavaScript functions for button actions
+    function addToCart() {
+      alert("Product added to cart!");
+    }
+
+    function addToFavorite() {
+      alert("Product added to favorites!");
+    }
+
+    function shareProduct() {
+      alert("Share product clicked!");
+    }
+  </script>
+</body>
+</html>

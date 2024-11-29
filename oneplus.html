@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="oneplus.css">
+</head>
+<body>
+    <div class="one">
+        <div class="container">
+            <!-- Product Image Section -->
+            <div class="product-image">
+              <img src="img/one plus.jpg" alt="Product Image" width="100%">
+            </div>
+        
+            <!-- Product Details Section -->
+            <div class="product-details">
+              <h1 class="product-title">OnePlus Nord CE4 5G ( Cleadon Marble, 8GB-256GB )</h1>
+              <p class="product-price">28,000Rs</p>
+              <p class="product-description">
+                Key Specifications
+        bi check circle fill
+        Rear Camera: 50MP + 8MP | Front Camera: 16MP
+        bi check circle fill
+        Qualcomm Snapdragon 7 Gen 3 Chipset | GPU: Adreno 720
+        bi check circle fill
+        5500 mAh Battery | 100W SUPERVOOC Charger
+              </p>
+        
+              <!-- Buttons Section -->
+              <div class="buttons">
+                <button class="btn btn-primary" onclick="addToCart()">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="btn btn-favorite" onclick="addToFavorite()">Add to Favorite <i class="fa-solid fa-heart"></i></button>
+                <button class="btn btn-share" onclick="shareProduct()">Share Product <i class="fa-solid fa-share"></i></button>
+              </div>
+        
+              <!-- Social Share Links -->
+              <div class="social-share">
+                <a href="https://wa.me/?text=https://your-product-url.com" target="_blank" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+              </div>
+            </div>
+          </div>
+        
+          <script>
+            // JavaScript functions for button actions
+            function addToCart() {
+              alert("Product added to cart!");
+            }
+        
+            function addToFavorite() {
+              alert("Product added to favorites!");
+            }
+        
+            function shareProduct() {
+              alert("Share product clicked!");
+            }
+          </script>
+    </div>
+  
+</body>
+</html>
